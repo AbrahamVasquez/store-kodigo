@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 card-item.0">
+    <title>Fashion Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<!-------------------------Navbar--------------------------->
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary p-0 fixed-top">
+            <div class="container-fluid bg-danger p-0 m-0">
+              <div class="log-on d-flex justify-content-start">
+                <a class="navbar-brand" href="index.html"><img src="./assets/logo.png" alt="" width="50px"></a>
+                <h2 class="text-light">Fashion Store</h2></a>
+              </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item me-5 mt-2">
+                    <a class="nav-link active text-light" aria-current="page" href="#products">Productos</a>
+                  </li>
+                  <li class="nav-item me-5 mt-2">
+                    <a class="nav-link text-light" href="#">Contacto</a>
+                  </li>
+                  <li class="nav-item me-3">
+                    <a class="nav-link" href="./signup.html" target="_blank"><img src="./assets/cart.png" width="50px" alt=""></a>
+                  </li>
+                </ul>
+                <div class="login">
+                <a href="#">
+                  <img src="./assets/icons/login.png" width="60px" height="60px" alt="">
+                </a>
+                </div>
+              </div>
+          </nav>
+    </header>
+
+<!-------------------------Section Articles------------------------>
+
+    <section class="main-products  d-flex justify-content-center mt-5">
+        <div id="carouselExample" class="carousel slide data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="#kid-section"><img src="./assets/kid-slide.jpg" class="d-block w-100" alt="..."></a>
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Niños</h3>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <a href="#men-section"><img src="./assets/men-slide.jpg" class="d-block w-100" alt="..."></a>
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Hombres</h3>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <a href="#women-section"><img src="./assets/women.jpg" class="d-block w-100" alt="..."></a>
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Mujeres</h3>
+                  </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+<!-------------------------Main Store Articles------------------------------->
+    
+    <article class="catalog">
+        <div class="card-group row-3 g-2">
+            <div class="card jajaja">
+              <a href="./women.html" target=”_blank”><img src="./assets/women-card.jpg" class="card-img-top w-100" alt="..."></a>
+              <div class="card-body">
+                <h5 class="card-title">Ropa damas</h5>
+                <p class="card-text">Aquí encontrarás todo lo relacionado a mujeres y estilos</p>
+              </div>
+            </div>
+            <div class="card">
+              <a href="./men.html" target=”_blank”><img src="./assets/men-card.jpg" class="card-img-top w-100" alt="..." ></a>
+              <div class="card-body">
+                <h5 class="card-title">Ropa caballeros</h5>
+                <p class="card-text">Todo lo último en moda masculina y acessorios</p>
+              </div>
+            </div>
+            <div class="card">
+              <a href="./kids.html" target=”_blank”><img src="./assets/kid-card.jpg" class="card-img-top w-100" alt="..."></a>
+              <div class="card-body">
+                <h5 class="card-title">Ropa niños y bebés</h5>
+                <p class="card-text">Los reyes del hogar merecen lucir a la moda estas fiestas con la mejor ropa exclusiva</p>
+              </div>
+            </div>
+          </div>
+    </article>
+
+<!--------------------------Main Section Items------------------------------->
+
+    <main class="bg-dark rounded container text-center">
+      <div class="row d-flex justify-content-center">
+        <h2 class="text-light">Exclusivo Caballeros</h2>
+        <div class="card col-6 col-sm-4 m-1 card-item" style="width: 18rem;">
+          <a href="./menArticles.html" target="_blank"><img src="./assets/men-section.jpg" class="card-img-top" alt="..."></a>
+          <div class="card-body">
+            <h5 class="card-title">Camisa deportiva</h5>
+            <p class="card-text">Camisa deportiva de equipo<br>
+              $56.92<br></p>
+            <a href="#" class="btn btn-danger">Agregar al carrito</a>
+          </div>
+    </div>
+      
+      <div class="card col-6 col-sm-4 m-1 card-item" style="width: 18rem;">
+        <img src="./assets/rolex.jpg" class="card-img-top mt-5" alt="...">
+        <div class="card-body">
+          <h5 class="card-title mt-1 card-item">Reloj elegante</h5>
+          <p class="card-text">REloj para ocasiones especiales<br>
+            $150.00<br></p>
+      <a href="#" class="btn btn-danger mt-2">Agregar al carrito</a>
+    </div>
+  </div>
+
+    <div class="card col-6 col-sm-4 m-1 card-item" style="width: 18rem;">
+      <img src="./assets/short-section.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Short deportivo</h5>
+        <p class="card-text">Short para futbol<br>
+          $20.00<br></p>
+        <a href="#" class="btn btn-danger">Agregar al carrito</a>
+      </div>
+    </div>
+    
+    <h2 class="text-light">Exclusivo Damas</h2>
+      <div class="card col-6 col-sm-4 m-1 card-item" style="width: 18rem;">
+        <img src="./assets/jacket-section.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Camisa casual</h5>
+          <p class="card-text">Camisa casual celeste para hombre<br>
+            $56.92<br>
+            Talla Caballeros
+            M</p>
+          <a href="#" class="btn btn-danger">Agregar al carrito</a>
+        </div>
+      </div>
+     
+        <div class="card col-6 col-sm-4 m-1 card-item" style="width: 18rem;">
+          <img src="./assets/pant-section.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Camisa casual</h5>
+            <p class="card-text">Camisa casual celeste para hombre<br>
+              $56.92<br>
+              Talla Caballeros
+              M</p>
+            <a href="#" class="btn btn-danger">Agregar al carrito</a>
+          </div>
+        </div>
+       
+          <div class="card col-6 col-sm-4 m-1 card-item" style="width: 18rem;">
+            <img src="./assets/women-section.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Camisa casual</h5>
+              <p class="card-text">Camisa casual celeste para hombre<br>
+                $56.92<br>
+                Talla Caballeros
+                M</p>
+              <a href="#" class="btn btn-danger">Agregar al carrito</a>
+            </div>
+          </div>
+        
+        <h2 class="text-light">Exclusivo Ninos</h2>
+            <div class="card col-6 col-sm-4 m-1 card-item" style="width: 18rem;">
+              <img src="./assets/kid-section.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Camisa casual</h5>
+                <p class="card-text">Camisa casual celeste para hombre<br>
+                  $56.92<br>
+                  Talla Caballeros
+                  M</p>
+                <a href="#" class="btn btn-danger">Agregar al carrito</a>
+              </div>
+        </div>
+      
+        <div class="card col-6 col-sm-4 m-1 card-item" style="width: 18rem;">
+                <img src="./assets/kid2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Camisa casual</h5>
+                  <p class="card-text">Camisa casual celeste para hombre<br>
+                    $56.92<br>
+                    Talla Caballeros
+                    M</p>
+                  <a href="#" class="btn btn-danger">Agregar al carrito</a>
+                </div>
+              </div>
+
+          <div class="card col-6 col-sm-4 m-1 card-item" style="width: 18rem;">
+                    <img src="./assets/kid3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Camisa casual</h5>
+                      <p class="card-text">Camisa casual celeste para hombre<br>
+                        $56.92<br>
+                        Talla Caballeros
+                        M</p>
+                      <a href="#" class="btn btn-danger">Agregar al carrito</a>
+                </div>
+              </div>
+              </div>
+    </main>
+
+<!---- ---------------Contact form -->
+
+<!-- <form action="#">
+  <h4>Suscribete a nuestro Newsletter</h4>
+  <input type="email" placeholder="Ingresa tu email">
+  <input type="submit">
+</form> -->
+
+<!--------------------------------Footer------------------------------------------>
+
+    <footer class=" text-center bg-secondary text-light p-1">
+      
+        <a href="./signup.html" target="_blank"><img src="./assets/icons/safe.png" width="200px"></a>
+        <!--<img src="./assets/icons/credit-card.png" width="50px">
+        <img src="./assets/icons/paypal.png" width="50px">
+        <img src="./assets/icons/visa (1 card-item).png" width="50px"-->
+        <h3>Josue Abraham Vasquez &copy</h3>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
